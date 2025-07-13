@@ -2,7 +2,6 @@ const userEmail = document.querySelector("#email");
 const myPassword = document.querySelector("#password");
 const signIn_btn = document.querySelector("#signIn");
 
-
 input_email = "appclick@gmail.com";
 input_password = "1234AppClick"
 
