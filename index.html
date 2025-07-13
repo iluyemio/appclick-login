@@ -20,22 +20,19 @@
 
             <div class="form-buttom">
                 <h3 class="form-header">User Login</h3>
-                <form action="submit">
+                <div>
                     <div class="form-input">
-                        <input type="email" name="email" placeholder="Username">
+                        <input type="email" id="email" name="email" placeholder="Username">
                         <i class="fa fa-envelope" aria-hidden="true"></i>
                     </div>
 
                     <div class="form-input">
-                        <input type="password" name="password" placeholder="Password">
+                        <input type="password" id="password" name="password" placeholder="Password">
                         <i class="fa fa-lock" aria-hidden="true"></i>
                     </div>
 
-                    <!-- <div class="form-input">
-                        
-                    </div> -->
-                    <button type="submit">Sign In</button>
-                </form>
+                    <button id="signIn">Sign In</button>
+                </div>
                 <a href="forgot-password.html"><i class="fa fa-key" aria-hidden="true"></i> Forgot Password</a>
             </div>
         </div>
@@ -44,5 +41,7 @@
             <img class="coding-img" src="assets/coding2.jpg" alt="Coding image">
         </div>
     </section>
+
+    <script src="appclick.js"></script>
 </body>
 </html>
