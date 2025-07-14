@@ -10,7 +10,7 @@ signIn_btn.addEventListener("click", function(){
     const passwordValue = myPassword.value;
 
     if (userValue === input_email && passwordValue === input_password){
-        alert("Welcome! Your have successfully login");
+        window.location.href = "https://www.lanreiluyemi.com/";
     } else {
         alert("Incorrect login credentials");
     }
